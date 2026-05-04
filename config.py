@@ -3,11 +3,13 @@
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
+_ROOT = os.path.dirname(os.path.abspath(__file__))
+load_dotenv(os.path.join(_ROOT, ".env"))
 
 # --- API Keys ---
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
-COHERE_API_KEY = os.getenv("COHERE_API_KEY", "")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "").strip()
+OPENAI_CHAT_MODEL = os.getenv("OPENAI_CHAT_MODEL", "gpt-4o-mini").strip()
+COHERE_API_KEY = os.getenv("COHERE_API_KEY", "").strip()
 
 # --- Qdrant ---
 QDRANT_HOST = "localhost"

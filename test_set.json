@@ -1,3 +1,22 @@
 [
-  {"question": "hihi cả nhà tự tạo testset bằng cơm nhé", "ground_truth": "Không kịp tạo luôn"},
+  {"question": "Nhân viên chính thức được bao nhiêu ngày nghỉ phép năm mỗi năm?", "ground_truth": "12 ngày làm việc mỗi năm."},
+  {"question": "Cứ bao nhiêu năm thâm niên thì được cộng thêm 1 ngày phép?", "ground_truth": "5 năm thâm niên."},
+  {"question": "Nghỉ phép không lương tối đa bao nhiêu ngày một năm?", "ground_truth": "30 ngày mỗi năm."},
+  {"question": "Ai phê duyệt đơn xin nghỉ phép không lương?", "ground_truth": "Giám đốc bộ phận."},
+  {"question": "Khi nghỉ ốm, trong bao lâu phải nộp giấy xác nhận y tế?", "ground_truth": "Trong vòng 3 ngày làm việc."},
+  {"question": "Mật khẩu tài khoản doanh nghiệp phải đổi tối thiểu bao lâu một lần?", "ground_truth": "Mỗi 90 ngày."},
+  {"question": "Có được gửi mật khẩu qua email hoặc chat không mã hóa không?", "ground_truth": "Không được chia sẻ mật khẩu qua email hoặc chat không mã hóa."},
+  {"question": "Truy cập hệ thống nội bộ từ xa bắt buộc dùng gì?", "ground_truth": "VPN WireGuard."},
+  {"question": "Thời gian thử việc tối đa là bao nhiêu ngày?", "ground_truth": "60 ngày làm việc."},
+  {"question": "Khi chấm dứt hợp đồng trong thử việc, cần thông báo trước bao lâu?", "ground_truth": "3 ngày làm việc."},
+  {"question": "Giờ làm việc cố định bắt đầu lúc mấy giờ?", "ground_truth": "08:30."},
+  {"question": "Giờ làm việc cố định kết thúc lúc mấy giờ?", "ground_truth": "17:30."},
+  {"question": "Khung giờ nghỉ trưa là khi nào?", "ground_truth": "12:00–13:00."},
+  {"question": "Chính sách nói gì về việc tăng ngày phép theo thâm niên?", "ground_truth": "Tăng thêm 1 ngày cho mỗi 5 năm thâm niên."},
+  {"question": "Nhân viên có thể xin loại nghỉ nào tối đa 30 ngày mỗi năm?", "ground_truth": "Nghỉ phép không lương."},
+  {"question": "Nghỉ ốm cần loại giấy tờ gì từ phía y tế?", "ground_truth": "Giấy xác nhận y tế."},
+  {"question": "Có được chia sẻ mật khẩu qua kênh không an toàn không?", "ground_truth": "Không được."},
+  {"question": "VPN nào được nêu trong tài liệu an toàn thông tin?", "ground_truth": "WireGuard."},
+  {"question": "Trong thời gian thử việc, bên nào có thể chấm dứt hợp đồng?", "ground_truth": "Cả hai bên."},
+  {"question": "Giờ làm việc và nghỉ trưa được quy định ở mục nào trong tài liệu nhân sự?", "ground_truth": "Giờ làm việc."}
 ]
